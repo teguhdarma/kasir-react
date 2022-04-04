@@ -6,11 +6,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+first clone file 
+
+and in fake databasae,open dbjson
+
+in db.json install npm install -g json-server and after install in command add json-server --watch db.json --port 3004
+
+![2022-04-04 (9)](https://user-images.githubusercontent.com/78896400/161528583-52bf5176-361d-4a7d-bcfc-b512e2e55707.png)
+
+
 ### `npm start`
 ![2022-04-04 (7)](https://user-images.githubusercontent.com/78896400/161526948-46b27fd3-48c4-4435-b5dd-ed819e070994.png)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+![2022-04-04 (10)](https://user-images.githubusercontent.com/78896400/161528807-c16aa1bf-c4d7-47de-8c70-21da6b26abf1.png)
+
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
