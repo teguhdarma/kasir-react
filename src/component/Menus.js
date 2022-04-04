@@ -3,7 +3,7 @@ import { Col, Card, Button } from "react-bootstrap";
 import { numberWithCommas } from "../utils/utils";
 
 
-const Menus = ({ menu, masukkeranjang }) => {
+const Menus = ({ menu, masukkeranjang,menukeranjang }) => {
   return (
   
     <Col  md={3} xs={12} style={{padding:"5px"}}>
@@ -31,6 +31,8 @@ const Menus = ({ menu, masukkeranjang }) => {
           </Card.Text>
           <Card.Text>RP{numberWithCommas(menu.harga)}</Card.Text>
           <Button variant="primary"onClick={() => masukkeranjang (menu)}>beli</Button>
+
+          <Button variant ="primary" onClick={() => this.handleShow(menukeranjang)}>edit</Button>
         </Card.Body>
       </Card>
     </Col>

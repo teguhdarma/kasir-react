@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container} from "react-bootstrap";
 import Hasil from "../component/Hasil";
 import ListCategories from "../component/ListCategories";
 import NavbarComponent from "../component/NavbarComponent";
+import Carasoul from "../component/Carasoul";
+
 import { API_URL } from "../utils/constant";
 import axios from "axios";
 import swal from "sweetalert";
@@ -140,6 +142,7 @@ export default class Home extends Component {
     return (
       <div className="Home">
         <NavbarComponent />
+        
         <div className="mt-3 mb-4">
           <Container fluid>
             <Row>
@@ -151,6 +154,9 @@ export default class Home extends Component {
               </Col>
             </Row>
           </Container>
+        </div>
+        <div>
+        <Carasoul/>
         </div>
         <div className="mt-3 mb-4">
           <Container>
